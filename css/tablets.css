@@ -1,0 +1,32 @@
+@media (max-width:744px) {
+.image2{
+    margin-top: 24px;
+    height: 320px;
+} 
+.section2_img{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 29px;
+    align-self: stretch;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    align-self: stretch;
+}
+.section2_frame{
+    justify-content: center;
+}
+.footer_nav{
+    display: flex;
+    height: 156px;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 96px;
+    border: 1px solid #36D146;
+}
+}

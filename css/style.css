@@ -1,0 +1,213 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    /* border: 10px solid red; */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px calc(32 / 1440 * 100%);
+}
+.burger_menu{
+    display: none;
+}
+.header_ul{
+    display: flex;
+    column-gap: 24px;
+}
+.header_li{
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+.button1{
+    padding: 12px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 32px;
+    background-color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: 0.1px;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 165px;
+    column-gap: 130px;
+}
+.section1_title{
+    color: #000;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; 
+    letter-spacing: -1px;
+}
+.section1_p{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;      
+}
+.button2{
+    display: flex;
+    padding: 12px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 32px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: 0.1px;
+    margin-top: 40px;
+}
+.image2{
+    height: 400px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px calc(150 / 1440 * 100%);
+    column-gap: calc(133 / 1440 * 100%);
+    background-color: black;
+}
+.image3 {
+    height: 400px;
+    width: 503.5px;
+    padding: 10px;
+    border-radius: 12px;
+    background-image: url("../images/second_image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+h3{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+    width: 503.5px;
+}
+
+.section2_p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 16px;
+    width: 503.5px;
+}
+.feature1{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    }
+    .article1_img{
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        letter-spacing: 0.1px;
+        margin-top: 22px;
+    }
+    .section3{
+        display: flex;
+        padding: 64px 150px;
+        column-gap: 30px; 
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        /* padding: 24px calc(32 / 1440 * 100%); */
+        background-color: #000;
+        width: 1440px;
+        height: 348px;
+    }
+    h5{
+        color: #FFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 24.653px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26.414px;
+        letter-spacing: -0.44px;
+        text-transform: uppercase;
+        margin-top: 96px;
+    }
+.footer_nav{
+    display: flex;
+    column-gap: 80px;
+}
+.footer_title{
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 700px;
+    line-height: 24px;
+    margin-top: 96px;
+}
+.footer_li {
+    margin-top: 16px;
+}
+.text {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.title3 {
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 700px;
+    line-height: 24px;
+    margin-top: 96px;
+}
+.text2 {
+    width: 214px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.4;
+    margin-top: 24px;
+}
